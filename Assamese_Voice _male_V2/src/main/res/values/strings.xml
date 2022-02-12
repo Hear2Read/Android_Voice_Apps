@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assamese Hear2Read Voice</string>
+    <string name="flite_version">Oct 4, 2017</string>
+    <string name="contact_us">Contact us</string>
+    <string name="about">About</string>
+    <string name="about_app">About Indic Hear2Read</string>
+    <string name="menu">Menu</string>
+</resources>

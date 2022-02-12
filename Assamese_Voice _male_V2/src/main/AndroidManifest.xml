@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.hear2read.Assamese">
+
+<!--
+    <uses-permission android:name="android.permission.INTERNET"/>
+-->
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher_2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <provider
+            android:name="org.hear2read.Assamese.AssetProvider"
+            android:authorities="${applicationId}"
+            android:exported="true"/>
+        <activity android:name="org.hear2read.Assamese.FliteInfoActivity"
+                  android:theme="@style/AppTheme.NoActionBar"
+                  android:configChanges="orientation|screenSize|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
